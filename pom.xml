@@ -60,14 +60,12 @@
 			<version>8.0.25</version>
 		</dependency>
 
-
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20160810</version>
 		</dependency>
-
 
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
@@ -82,7 +80,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M5</version>
+				<version>3.0.0-M4</version>
 				<configuration>
 					<includes>
 						<include>**/*Smoke.java</include>
