@@ -5,7 +5,7 @@ Feature: Add Employee
     When user clicks on PIM option
     And user clicks on Add Employee button
 
-  @1027
+  @10271
   Scenario: first scenario of adding the employee
     And user enters firstname middlename and lastname
     And user clicks on save button
