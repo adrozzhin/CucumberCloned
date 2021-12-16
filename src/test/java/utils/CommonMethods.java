@@ -25,7 +25,7 @@ public class CommonMethods {
             case "chrome":
               //  System.setProperty("webdriver.chrome.driver", "src/drivers/chromedriver.exe");
 
-                if(ConfigReader.getPropertyValue("headless").equals(true)) {
+                if(ConfigReader.getPropertyValue("headless").equals("true")) {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.setHeadless(true);
                     WebDriverManager.chromedriver().setup();
