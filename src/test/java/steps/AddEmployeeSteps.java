@@ -34,9 +34,9 @@ public class AddEmployeeSteps extends CommonMethods {
     @When("user enters firstname middlename and lastname")
     public void user_enters_firstname_middlename_and_lastname() {
         AddEmployeePage addEmployeePage = new AddEmployeePage();
-        sendText(addEmployeePage.firtName, "Noor");
-        sendText(addEmployeePage.middleName, "007breakmanager");
-        sendText(addEmployeePage.lastName, "khan");
+        sendText(addEmployeePage.firtName, "Andrei1111");
+        sendText(addEmployeePage.middleName, "007breakmanager111");
+        sendText(addEmployeePage.lastName, "Dr11111");
     }
     @When("user clicks on save button")
     public void user_clicks_on_save_button() {
